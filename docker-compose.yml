@@ -23,7 +23,7 @@ services:
     ports:
     - "8000:8000"
     volumes:
-    - ./backend:/usr/backend
+    - ./backend:/usr/src/backend
     depends_on:
     - db
     networks:
@@ -42,6 +42,19 @@ services:
     networks:
       - plc_data_platform_web
 
+  siemens1:
+    platform: "linux/x86_64"
+    build:
+      context: ./siemens1
+      dockerfile: Dockerfile
+    image: "plc_data_platform_siemens1:dev"
+    container_name: "plc_data_platform_siemens1"
+    volumes:
+      - "./siemens1:/usr/src/siemens1"
+    ports:
+      - "102:102"
+    networks:
+      - plc_data_platform_web
 
 networks:
   plc_data_platform_web:

@@ -1,0 +1,79 @@
+[
+  {
+    "uid": "BooleanVariable1",
+    "db": 250,
+    "byte_offset": 0,
+    "bit_offset": 0,
+    "data_type": "BOOL",
+    "default_value": true
+  },
+  {
+    "uid": "BooleanVariable2",
+    "db": 250,
+    "byte_offset": 0,
+    "bit_offset": 1,
+    "data_type": "BOOL",
+    "default_value": false
+  },
+  {
+    "uid": "StringVariable1",
+    "db": 250,
+    "byte_offset": 1,
+    "data_type": "STRING",
+    "max_size": 20,
+    "default_value": "Ciao"
+  },
+  {
+    "uid": "ByteVariable1",
+    "db": 250,
+    "byte_offset": 21,
+    "data_type": "BYTE",
+    "default_value": 1
+  },
+  {
+    "uid": "BooleanVariable3",
+    "db": 251,
+    "byte_offset": 0,
+    "bit_offset": 0,
+    "data_type": "BOOL",
+    "default_value": true
+  },
+  {
+    "uid": "BooleanVariable4",
+    "db": 251,
+    "byte_offset": 0,
+    "bit_offset": 1,
+    "data_type": "BOOL",
+    "default_value": false
+  },
+  {
+    "uid": "FlgNewJob251",
+    "db": 251,
+    "byte_offset": 0,
+    "bit_offset": 2,
+    "data_type": "BOOL",
+    "default_value": true
+  },
+  {
+    "uid": "ByteVariable2",
+    "db": 251,
+    "byte_offset": 1,
+    "data_type": "BYTE",
+    "default_value": 10
+  },
+  {
+    "uid": "WordVariable1",
+    "db": 251,
+    "byte_offset": 2,
+    "data_type": "WORD",
+    "default_value": 100
+  },
+  {
+    "uid": "StringVariable2",
+    "db": 251,
+    "byte_offset": 4,
+    "data_type": "STRING",
+    "default_value": "2023-11-13T08:00:00",
+    "max_size": 19
+  }
+]
